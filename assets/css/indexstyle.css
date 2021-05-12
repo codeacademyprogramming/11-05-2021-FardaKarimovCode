@@ -52,7 +52,25 @@ background-color:red;
 
 color:black;
 }
-.header a:hover{
-    color:red;
-    text-decoration: none;
+.header a#logout{
+    text-decoration:none;
+    display: inline-block;
+    
+    cursor:pointer;
+    padding:20px 16px 16px 16px;
+    font-size:23px;
+    float:right;
+    background-color:red;
+    color:white;
+  
 }
+#logout{
+ font-size:23px;
+ font-weight:bold;
+}
+#logout:hover{
+background-color:white;
+
+color:red;
+}
+
